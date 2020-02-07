@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+		.box-1 {
+			width: 900px;
+			height: 800px;
+			border:1px solid #00a7c2;
+			border-radius: 20%;
+			margin-left: 25%
+
+		}
+		.box-1-img {
+			width: 500px;
+			height: 500px;
+			border-radius: 20%;
+			display: flex;
+			background-image:url(v1.jpg);
+			margin-left: 22%;
+			overflow: hidden;
+			margin-top: 10px;
+			
+		}
+		.btn1-1 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+		.btn1-2 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+		.btn1-3 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+		.boxtext {
+			margin-left: 25%;
+			margin-top: 30px;
+		}
+
+		.box-2 {
+			width: 900px;
+			height: 800px;
+			border:1px solid #00a7c2;
+			border-radius: 20%;
+			margin-left: 25%;
+			display: none;
+
+		}
+		.box-2-img {
+			width: 500px;
+			height: 500px;
+			border-radius: 20%;
+			display: flex;
+			background-image:url(v2.jpg);
+			margin-left: 22%;
+			overflow: hidden;
+			margin-top: 10px;
+			
+		}
+		.btn2-1 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+		.btn2-2 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+		.btn2-3 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+
+		.box-3 {
+			width: 900px;
+			height: 800px;
+			border:1px solid #00a7c2;
+			border-radius: 20%;
+			margin-left: 25%;
+			display: none;
+
+		}
+		.box-3-img {
+			width: 500px;
+			height: 500px;
+			border-radius: 20%;
+			display: flex;
+			background-image:url(v3.jpg);
+			margin-left: 22%;
+			overflow: hidden;
+			margin-top: 10px;
+			
+		}
+		.btn3-1 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+		.btn3-2 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+
+		}
+		.btn3-3 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 100%
+		}
+
+
+		.box-4 {
+			width: 900px;
+			height: 800px;
+			border:1px solid #00a7c2;
+			border-radius: 20%;
+			margin-left: 25%;
+			display: none;
+
+		}
+		.box-4-img {
+			width: 500px;
+			height: 500px;
+			border-radius: 20%;
+			display: flex;
+			background-image:url(v4.jpg);
+			margin-left: 22%;
+			overflow: hidden;
+			margin-top: 10px;
+			
+		}
+		.btn4-1 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+		.btn4-2 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+		.btn4-3 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+
+		.box-5 {
+			width: 900px;
+			height: 800px;
+			border:1px solid #00a7c2;
+			border-radius: 20%;
+			margin-left: 25%;
+			display: none;
+
+		}
+		.box-5-img {
+			width: 500px;
+			height: 500px;
+			border-radius: 20%;
+			display: flex;
+			background-image:url(v5.jpg);
+			margin-left: 22%;
+			overflow: hidden;
+			margin-top: 10px;
+			
+		}
+		.btn5-1 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+		.btn5-2 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+		.btn5-3 {
+			width: 150px;
+			height: 50px;
+			background-color: #00a7c2;
+			border-radius: 30px;
+			border: none;
+			color: #c4c200;
+			font-family: cursive;
+			font-size: 120%
+		}
+		
+	</style>
+</head>
+<body>
+<div style="background-image: url(luna.jpg);background-size: 100% 100%;height: 942px;margin: -10px">
+	<audio autoplay controls style="border-radius: 20px;background-color: #00a7c2;margin-left: 41%">
+    <source src="Purple.mp3" type="audio/mpeg" >
+  	</audio>
+	<div class="box-1">
+		<div class="box-1-img"></div>
+		<div class="boxtext">
+			<button class="btn1-1">Илья</button>
+			<button class="btn1-2">Тимур</button>
+			<button class="btn1-3">Хира</button>
+		</div>
+	</div>
+	<div class="box-2">
+		<div class="box-2-img"></div>
+		<div class="boxtext">
+			<button class="btn2-1">03.06.2005</button>
+			<button class="btn2-2">06.05.2006</button>
+			<button class="btn2-3">03.06.2004</button>
+		</div>
+	</div>
+	<div class="box-3">
+		<div class="box-3-img"></div>
+		<div class="boxtext">
+			<button class="btn3-1">163</button>
+			<button class="btn3-2">150</button>
+			<button class="btn3-3">Ты сам незнаешь</button>
+		</div>
+	</div>
+	<div class="box-4">
+		<div class="box-4-img"></div>
+		<div class="boxtext">
+			<button class="btn4-1">Сидней</button>
+			<button class="btn4-2">Канберра</button>
+			<button class="btn4-3">Мельбурн</button>
+		</div>
+	</div>
+	<div class="box-5">
+		<div class="box-5-img"></div>
+		<div class="boxtext">
+			<a href="https://www.instagram.com/svyyyx/"><button class="btn5-1">Instagram</button></a>
+			<a href="https://discord.gg/fwsPyWn"><button class="btn5-2">Discord</button></a>
+			<a href="https://www.instagram.com/svyyyx/"><button class="btn5-3">VK</button></a>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+	document.querySelector(".btn1-1").onclick = function(){
+		alert("Неправильно, огорчил.")
+	}
+	document.querySelector(".btn1-3").onclick = function(){
+		alert("Неправильно, огорчил.")
+	}
+	document.querySelector(".btn1-2").onclick = function(){
+		alert("Правильно, преступай к следующим .")
+		document.querySelector(".box-1").style.display = "none"
+		document.querySelector(".box-2").style.display = "block"
+	}
+
+
+
+	document.querySelector(".btn2-2").onclick = function(){
+		alert("Неправильно, огорчил.")
+	}
+	document.querySelector(".btn2-3").onclick = function(){
+		alert("Неправильно, огорчил.")
+	}
+	document.querySelector(".btn2-1").onclick = function(){
+		alert("Правильно, преступай к следующим .")
+		document.querySelector(".box-2").style.display = "none"
+		document.querySelector(".box-3").style.display = "block"
+	}
+
+
+
+	document.querySelector(".btn3-2").onclick = function(){
+		alert("Неправильно, огорчил.")
+	}
+	document.querySelector(".btn3-1").onclick = function(){
+		alert("Неправильно, огорчил.")
+	}
+	document.querySelector(".btn3-3").onclick = function(){
+		alert("Правильно, преступай к следующим .")
+		document.querySelector(".box-3").style.display = "none"
+		document.querySelector(".box-4").style.display = "block"
+	}
+
+
+
+	document.querySelector(".btn4-1").onclick = function(){
+		alert("Неправильно, огорчил.")
+	}
+	document.querySelector(".btn4-3").onclick = function(){
+		alert("Неправильно, огорчил.")
+	}
+	document.querySelector(".btn4-2").onclick = function(){
+		alert("Правильно, преступай к следующим .")
+		document.querySelector(".box-4").style.display = "none"
+		document.querySelector(".box-5").style.display = "block"
+	}
+</script>
+</body>
+</html>
